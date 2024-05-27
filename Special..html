@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Food Items</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333
+        }
+        header {
+            background-color: gold;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+   
+        .container {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            background-color:gold;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: black;
+            text-align: center;
+        }
+        .food-item {
+            display: flex;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .food-item:hover{
+            transition:  1s;
+            transform: scale(1.1);
+        }
+        
+        .food-item img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .food-item-details {
+            flex: 1;
+        }
+        .food-item-name {
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .food-item-description {
+            color: #666;
+            margin: 5px 0;
+        }
+        .food-item-price {
+            color: #333;
+            font-size: 18px;
+            
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Special Food Items</h1>
+    </header>
+ 
+    <div class="container">
+        <h2>Explore Our Special Food Items</h2>
+        <div class="food-item">
+            <img src="images/paneer/shahi-paneer.jpg" alt="Special Food Item">
+            <div class="food-item-details">
+                <h3 class="food-item-name">Shahi Paneer</h3>
+                <p class="food-item-description">
+                   It is a delicious North Indian curry made with paneer (cottage cheese) and tomato based spicy gravy laced with spices. This is a traditional recipe that has been followed from generations and has been mainstay preparation in Indian cuisine since the time of Moguls. This shahi paneer recipe uses cashew nut based tomato gravy to bring in the rich texture and flavor.</p>
+                <p class="food-item-price">₹250</p>
+            </div>
+        </div>
+        <div class="food-item">
+            <img src="images/south indian/Rava-Uttapam.jpg" alt="Special Food Item">
+            <div class="food-item-details">
+                <h3 class="food-item-name">Rava Uttapam</h3>
+                <p class="food-item-description">Sooji rawa is actually granulated wheat and contains all of its nutritional benefits. It is an excellent source of carbohydrates and proteins, making it a healthy breakfast item that will give you plenty of energy throughout your morning routines.</p>
+                <p class="food-item-price">₹250</p>
+            </div>
+        </div>
+        <div class="food-item">
+            <img src="images/vegetable/vegetable-biryani.jpg" alt="Special Food Item">
+            <div class="food-item-details">
+                <h3 class="food-item-name">Veg Biryani</h3>
+                <p class="food-item-description"></p>
+                <p class="food-item-price">Vegetable biryani can be an excellent option for those trying to lose weight. It can be made with minimal oil and no meat, making it a low-calorie meal. Additionally, this version of biryani can be high in fibre and nutrients from the vegetables used to make it, providing further health benefits.</p>
+                <p class="food-item-price">₹150</p>
+            </div>
+        </div>
+        <!-- Add more special food items here -->
+    </div>
+</body>
+</html>

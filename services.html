@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+        header {
+            background-color: gold;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            margin-left:35%;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+  
+        .service {
+            width: calc(50% - 20px);
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 3px solid white;
+            border-radius: 5px;
+            background-color: gold;
+            color: black;
+            cursor: pointer;
+            
+        }
+        .service:hover{
+            transition:  1s;
+            transform: scale(1.1);
+
+        }
+        .service h3 {
+            color: black;
+            font-size: larger;
+            
+        }
+        .service p {
+            color: black;
+            font-size: medium;
+        }
+        @media (max-width: 768px) {
+            .service {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Services</h1>
+    </header>
+
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Delivery </h3>
+                <p>Enjoy our delicious food from the comfort of your home. We offer fast and reliable delivery services.</p>
+            </div>
+            <div class="service">
+                <h3>Catering</h3>
+                <p>Planning a special event? Let us cater it for you! We provide catering services for all occasions.</p>
+            </div>
+            <div class="service">
+                <h3>Dine-In</h3>
+                <p>Experience our warm hospitality and delightful ambiance by dining in at our restaurant.</p>
+            </div>
+            <div class="service">
+                <h3>Takeout</h3>
+                <p>Short on time? Order ahead and pick up your favorite dishes with our convenient takeout service.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

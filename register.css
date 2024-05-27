@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background:url(./images/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.jpg);
+    background-size: cover;
+    background-position: center;
+   
+  }
+  
+  .container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+  }
+  
+  .register-form {
+    background-color:transparent;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    color: white;
+    width: 20%;
+    font-family: "Poppins", sans-serif;
+
+  }
+  
+  .register-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-family: "Poppins", sans-serif;
+
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    color: white;
+
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Poppins", sans-serif;
+
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
